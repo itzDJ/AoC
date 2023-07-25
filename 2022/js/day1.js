@@ -19,7 +19,7 @@ function part1() {
     return largest;
 }
 
-console.log(part1());
+console.log(`Part 1: ${part1()}`);
 
 function part2() {
     // Read the file and convert to an array
@@ -43,4 +43,4 @@ function part2() {
     return groups[0] + groups[1] + groups[2];
 }
 
-console.log(part2());
+console.log(`Part 2: ${part2()}`);

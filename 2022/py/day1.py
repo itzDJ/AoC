@@ -17,7 +17,7 @@ def part1():
                 nums = 0
     return largest
 
-print(part1())
+print(f'Part 1: {part1()}')
 
 def part2():
     with open('../day1.txt') as f:
@@ -38,5 +38,5 @@ def part2():
     groups.sort(reverse=True)
     return groups[0] + groups[1] + groups[2]
 
-print(part2())
+print(f'Part 2: {part2()}')
 

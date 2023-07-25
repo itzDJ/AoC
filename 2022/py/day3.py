@@ -17,7 +17,7 @@ def part1():
                     break
     return total
 
-print(part1())
+print(f'Part 1: {part1()}')
 
 def part2():
     with open('../day3.txt') as f:
@@ -33,5 +33,5 @@ def part2():
                     break
     return total
 
-print(part2())
+print(f'Part 2: {part2()}')
 
